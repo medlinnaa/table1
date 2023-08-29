@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&family=Raleway:wght@200&family=Roboto:wght@300&display=swap');
+ body {
+    background: rgb(175,57,34);
+    background: linear-gradient(90deg, rgba(175,57,34,1) 21%, rgba(212,11,233,1) 100%);
+}
+
+div {
+    margin-top: 8%;
+    margin-left: 20%;
+}
+
+table {
+    text-align: center;
+    border-spacing: 0;
+    border-collapse: separate;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    overflow: hidden;
+    width: 80%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+tr:nth-last-child(8) {
+    background-color: rgb(192, 103, 103);;
+}
+
+tr:nth-last-child(7){
+    background-color: brown;
+}
+
+tr:nth-last-child(6) {
+   background-color: rgb(192, 103, 103);
+ }
+ tr:nth-last-child(5){
+    background-color: brown;
+}
+tr:nth-last-child(4) {
+    background-color: rgb(192, 103, 103);
+  }
+  tr:nth-last-child(3){
+    background-color: brown;
+}
+tr:nth-last-child(2) {
+    background-color: rgb(192, 103, 103);
+  }
+tr:nth-last-child(1){
+    background-color: brown;
+}
+
+tr {
+    height: 30px;
+}
+
+th {
+    background-color: maroon;
+    height: 35px;
+    color: white;
+    font-family: 'Raleway', sans-serif;
+    padding: 10px;
+}
+
+td {
+    color: #cbb5cd;
+    font-family: 'Poppins', sans-serif;
+    padding: 10px;
+   
+}
+
+tr:hover {
+    background-color: rgb(156, 135, 113);
+}
